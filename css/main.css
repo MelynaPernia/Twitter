@@ -1,0 +1,161 @@
+/*^------------Setear--------------^*/
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', 'Yantramanav', 'Amaranth', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E6ECF0;
+}
+/*^------------Fin setear--------------^*/
+
+/*^------------Header-------------^*/
+#container-header {
+  box-sizing: border-box;
+  color: #1F98C7;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container-menu {
+  background-color: #ffffff;
+  display: flex;
+  height: 45px;
+  justify-content: space-around;
+}
+
+.list-menu, .list-menu li, .container-menu h1, .container-menu div {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.list-menu li {
+  margin-right: 2vh;
+}
+
+li>a {
+  color: #66757F;
+  font-family: 'Yantramanav';
+  text-decoration: none;
+}
+
+.list-menu li a:hover {
+  color: #1F98C7;
+  border-bottom: 1px solid #1F98C7;
+  font-weight: 700;
+}
+
+.imagen-profile, .imagen-profile img {
+  border-radius: 15px;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+}
+
+.imagen-profile, .menu-rigth button {
+  display: inline-block;
+  margin-right: 2vh;
+  vertical-align: middle;
+}
+/*^------------Fin header-------------^*/
+
+/*^------------Main-------------^*/
+#principal {
+  padding: 55px 25vh;
+  position: relative;
+}
+
+.profile-section {
+  margin-right: 5vh;
+  padding: 5vh;
+  text-align: center;
+  width: 45vh;
+}
+
+.tweets-section {
+  margin-right: 0;
+  width: 100vh;
+}
+
+section[class*="section"] {
+  background-color: #F5F8FA;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+}
+
+button[name='btn-twittear'] {
+  color: #ffffff;
+  background-color: #1F98C7;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2.5vh;
+  font-family: 'Amaranth';
+  font-size: 14px;
+  padding: 1vh 2vh;
+}
+
+.imagen-menu , .imagen-menu img {
+  border-radius: 10vh;
+  display: inline;
+  height: 20vh;
+  width: 20vh;
+}
+
+#text-tweet {
+  border: none;
+  border-radius: 2vh;
+  display: block;
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  height: auto;
+  margin-bottom: 2vh;
+  padding: 2vh;
+  resize: none;
+  width: 90vh;
+}
+
+#quantity-character {
+  font-family: 'Yantramanav';
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 2vh;
+}
+
+.image-tweet {
+  text-align: center;
+}
+
+.line {
+  margin-top: 2vh;
+}
+
+.tweets-form{
+  padding: 20px;
+}
+
+button[name="btn-twittear"]:hover {
+  background-color: #257d9e;
+}
+/*^------------Fin main-------------^*/
+
+/**Estilos de las etiquetas creadas en el archivo app.js**/
+#container-tweet {
+  margin-top: 2vh;
+}
+
+#container-tweet p {
+  background-color: white;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#container-tweet p spam {
+  display: block;
+  font-weight: 600;
+}
+/*****fin js****/
